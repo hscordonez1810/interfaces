@@ -1,0 +1,163 @@
+#cuadrado{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.rombo{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(252, 232, 119);
+    transform: rotate(45deg);
+    margin-left: 10px;
+}
+#triangulo{
+  height: 0px;
+  width: 0px;
+  background-color: red;
+  border-top: 40px white solid;
+  border-bottom: 80px rgb(175, 10, 197) solid;
+  border-left: 40px white solid;
+  border-right: 40px white solid;
+}
+#rectangulo{
+  height: 60px;
+  width: 100px;
+  background-color: rgb(12, 95, 110);
+}
+
+
+#circulo{
+  width: 100px;
+   height: 100px;
+   background: rgb(147, 243, 184);
+   border-radius: 50%;
+}
+.ovalo {
+  width: 165px;
+  height: 120px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #da5f0d;
+}
+
+#trianguloRectangulo{
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-left: 50px solid #4e59f0;
+  border-bottom: 50px solid  #4e59f0;
+}
+.ribbon {
+  width: 0px;
+  height: 120px;
+  border-left: 50px solid #030303;
+  border-right: 50px solid #630704;
+  border-bottom: 35px solid transparent;
+}
+
+
+#movimientos{
+    background-color: rgb(255, 0, 200);
+    width: 50px;
+    height: 50px;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 7s;
+    animation-name: movimiento;
+}
+@keyframes movimiento {
+    from {
+      margin-left: 0%;
+    }
+ 
+    to {
+      margin-left: 60%;
+    }
+  }
+
+  #movimientosV{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    background-color: rgb(190, 22, 120);
+    transform: rotate(45deg);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-name: movimientoVe;
+}
+@keyframes movimientoVe {
+    from {
+      margin-bottom: 0%;
+    }
+ 
+    to {
+      margin-top: 7%;
+    }
+  }
+
+#movimientoColor{
+    background-color: rgb(3, 43, 43);
+    width: 50px;
+    height: 50px;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-name: mColor;
+}
+
+@keyframes mColor {
+    0%{
+        background-color: yellow;
+        top: 0px;
+        left: 0px;
+      margin-left: 0%;
+    }
+ 
+    50%{
+        background-color:blue;
+        top: 25px;
+        left: 25px;
+    }
+    100%{
+        background-color:red;
+        top: 50px;
+        left: 25px;
+        margin-left: 10%;
+    }
+  }
+
+  .cuadroDiferenteColor{
+    width: 50px;
+     height: 50px;
+     background: rgb(26, 25, 25);
+     border-left: 15px solid #f1e20f;
+     border-right: 15px solid #0709a0;
+     border-bottom: 15px solid #8b1021;
+     border-top:15px solid #69663c;
+  }
+
+  #giro{
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-left: 50px solid #4ef064;
+    border-bottom: 50px solid #080808;
+    transform: rotate(95deg);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-name: giro;
+}
+  @keyframes giro{
+    from{
+      transform: rotateX(-20deg) rotateY(0deg);
+
+    }
+    to{
+      transform: rotateX(-20deg) rotateY(360deg);
+    }
+  }

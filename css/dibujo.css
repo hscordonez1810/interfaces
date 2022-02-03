@@ -1,0 +1,199 @@
+.cabeza{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgb(220, 247, 101);
+  transform: rotate(90deg);
+  position: relative;
+  right: 150px;
+  top: 320px;
+}
+.ojo{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  position: relative;
+  margin: 20px;
+  left: 60px;
+  top: 40px;
+  border-left: 15px solid #000000;
+  border-right: 15px solid #000000;
+  border-bottom: 15px solid #000000;
+  border-top:15px solid #000000;
+}
+.ojo1{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  position: relative;
+  left: 60px;
+  top: 60px;
+}
+
+
+.boca{
+  width: 50px;
+  height: 90px;
+  border-radius: 250%;
+  position: relative;
+  left: 100px;
+  bottom: 110px;
+  border-left: 15px transparent solid;
+  border-right: 5px solid #000000;
+  border-bottom: 15px transparent solid;
+  border-top:15px transparent solid;
+}
+.nariz{
+  width: 30px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(185, 140, 56);
+  position: relative;
+  left: 120px;
+  bottom: 190px;
+}
+.cola{
+  height: 0px;
+  width: 0px;
+  background-color:transparent;
+  border-top: 40px transparent solid;
+  border-bottom: 90px rgb(220, 247, 101) solid;
+  border-left: 40px transparent solid;
+  border-right: 40px transparent solid;
+  transform: rotate(90deg);
+  position: absolute;
+  left: 850px;
+  top: 730px;
+}
+.caparazon{
+  width: 300px;
+   height: 300px;
+   background: rgb(219, 206, 108);
+   border-radius: 50%;
+   border-left: 15px solid #69663c;
+   border-right: 15px solid #69663c;
+   border-bottom: 15px solid #69663c;
+   border-top:15px solid #69663c;
+   margin: 12% auto;
+   position: relative;
+}
+.pata{
+  width: 90px;
+  height: 110px;
+  border-radius: 50%;
+  background: rgb(220, 247, 101);
+  position: relative;
+  left: 550px;
+  top: 530px;
+}
+.pata1{
+  width: 90px;
+  height: 110px;
+  border-radius: 50%;
+  background: rgb(220, 247, 101);
+  position: relative;
+  left: 730px;
+  top: 440px;
+}
+.pata2{
+  width: 90px;
+  height: 110px;
+  border-radius: 50%;
+  background: rgb(220, 247, 101);
+  position: relative;
+  left: 720px;
+  top: 650px;
+}
+.pata3{
+  width: 90px;
+  height: 110px;
+  border-radius: 50%;
+  background: rgb(220, 247, 101);
+  position: relative;
+  left: 520px;
+  top: 550px;
+}
+
+.triangulo-superior {
+  border-right: 3.4641em solid transparent;
+  border-bottom: 2em solid rgb(228, 143, 16);
+  border-left: 3.4641em solid transparent;
+  height: 0;
+  width:  0;
+}
+
+.triangulo-inferior {
+  border-top: 2em solid rgb(228, 143, 16);
+  border-right: 3.4641em solid transparent;
+  border-left: 3.4641em solid transparent;
+  height: 0;
+  width: 0;
+}
+.cuadrado{
+  height: 50px;
+  width: 110px;
+  background-color: rgb(228, 143, 16);
+}
+
+.triangulo-superior1 {
+  border-right: 3.4641em solid transparent;
+  border-bottom: 2em solid rgb(228, 143, 16);
+  border-left: 3.4641em solid transparent;
+  height: 0;
+  width:  0;
+  margin: auto;
+}
+
+.triangulo-inferior1 {
+  border-top: 2em solid rgb(228, 143, 16);
+  border-right: 3.4641em solid transparent;
+  border-left: 3.4641em solid transparent;
+  height: 0;
+  width: 0;
+  margin:auto;
+}
+.cuadrado1{
+  height: 50px;
+  width: 110px;
+  background-color: rgb(228, 143, 16);
+  margin:auto;
+}
+.triangulo-superior2 {
+  border-right: 3.4641em solid transparent;
+  border-bottom: 2em solid rgb(228, 143, 16);
+  border-left: 3.4641em solid transparent;
+  height: 0;
+  width:  0;
+  margin: auto;
+}
+
+.triangulo-inferior2 {
+  border-top: 2em solid rgb(228, 143, 16);
+  border-right: 3.4641em solid transparent;
+  border-left: 3.4641em solid transparent;
+  height: 0;
+  width: 0;
+  margin:auto;
+}
+.cuadrado2{
+  height: 50px;
+  width: 110px;
+  background-color: rgb(228, 143, 16);
+  margin:auto;
+}
+.hexagono{
+  position: relative;
+  top: 50px;
+  left: 35px;
+  margin-bottom: 10%;
+}
+.hexagono1{
+  margin-left: 10%;
+}
+.hexagono2{
+  position: relative;
+  left: 80px;
+  top: -200px;
+}
